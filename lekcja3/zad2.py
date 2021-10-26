@@ -12,16 +12,18 @@ def calculate_average(grades):
     licznik = 0
     mianownik = 0
     for i in range(len(grades)):
-        if grades[i][0] > 0 and grades[i][1] > 0:
-            licznik += grades[i][0] * grades[i][1]
-            mianownik += grades[i][1]
+        grade = grades[i][0]
+        weight = grades[i][1]
+        if grade > 0 and weight > 0:
+            licznik += grade * weight
+            mianownik += weight
         else:
             raise ValueError
     
     return licznik / mianownik
 
 def main():
-    print(f"Śrenia wynosi: {calculate_average(get_grades())}")
+    print(f"Średnia wynosi: {calculate_average(get_grades())}")
 
 if __name__ == "__main__":
     main()
