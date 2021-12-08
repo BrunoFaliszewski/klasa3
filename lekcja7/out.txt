@@ -1,5 +1,24 @@
-2
-3; l. doskona³a
-4; l. pierwsza
+1; l. doskona³a
+2; l. pierwsza
+3; l. pierwsza
+4
 5; l. pierwsza
-6
+5; l. pierwsza
+6; l. doskona³a
+3; l. pierwsza
+45
+647; l. pierwsza
+568
+64
+356
+3546
+67566
+567
+33
+356
+346
+324
+43; l. pierwsza
+65548
+567
+78
