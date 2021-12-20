@@ -19,7 +19,7 @@ def generate_list():
         return list
 
 def generate_file(list):
-    with open('out.txt', mode='w') as file:
+    with open('output.txt', mode='w') as file:
         for i in range(len(list)):
             isPrimeNumber = prime_number(list[i])
             isPerfectNumber = perfect_number(list[i])
