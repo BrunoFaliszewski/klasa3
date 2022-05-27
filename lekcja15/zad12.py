@@ -1,5 +1,4 @@
 import math
-from msilib.schema import Error
 
 with open('dane.txt', 'r') as file:
     piksele = file.read()
